@@ -7,11 +7,11 @@
 {% endfor %}
 <form action="/contact" method="post" class="from-contact">
 <p><label>Название соревнования: </label> <input type="text" name="name of competition" value="" requied />
-<p><label>Дата: </label> <input type="text" name="date" value="" requied />
+<p><label>Дата: </label> <input type="date" name="date" value="" requied />
 <p><label>Наименование организатора:</label> <input type="text" name="organizer" value="" requied />
 <p><label>Место проведения: </label> <input type="text" name="place" value="" requied />
+<p><label>Количество участников: </label> <input type="number" name="number" value="" requied />
+<p><label>Тип заезда: </label> <input type="text" name="type" value="" requied />
 <p><input type="submit" value="Отправить" />
 </form>
 {% endblock %}
-
-
